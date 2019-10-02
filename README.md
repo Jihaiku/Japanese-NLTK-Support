@@ -33,3 +33,26 @@ Below I will have listed what the project currently has completed to some degree
     - NER/NED inclusion
     - Better Parts of Speech Tagging
     
+    
+### Problems with the program
+    - Verb Conjugation/Stemming has many forms but is very small amount of data
+      - 5.4% of words in dataframe consist of over 75% of the rare conjugations needed
+    
+![Verb Tags](https://user-images.githubusercontent.com/48660919/66078624-59d78c00-e530-11e9-9192-dcce607eb55e.PNG)
+
+    - Website used has questionable data integrity
+        - Missing 'important' words (Only 6,000 words are JLPT when there should be 10,000+)
+        - Specifications ignored on website (only searched for 'Common Words'
+        
+![JLPT Tags](https://user-images.githubusercontent.com/48660919/66078627-5ba14f80-e530-11e9-8c61-cbea2557cb1c.PNG)
+![Common example](https://user-images.githubusercontent.com/48660919/66078644-62c85d80-e530-11e9-9287-b5525b64db4f.PNG)
+
+    - Not enough Parts of Speech Tagging
+      - More webscraping is required from other sites to get pronunciation, romaji, and parts of speech
+      (all of which were not clear on the website scraped)
+      
+ # Have any suggestions or critiques?
+ Please put in a commit or send me a message and I'd love to discuss anything you have to offer. This project is a labor of love and I'd like to see it through to the end but as a one person team it isn't that easy to get to a reasonable end point.
+ 
+ Thanks for the read!
+  - Jihaiku
